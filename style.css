@@ -1,0 +1,74 @@
+#cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+#paletas {
+  display: flex;
+  justify-content: center;
+}
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#botao {
+  display: inline-block;
+  padding: 15px 10px;
+  margin: 5px;
+}
+
+.color {    
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+#black {
+  background-color: black;
+}
+
+#darkblue {
+  background-color: darkblue;
+}
+
+#lightgreen {
+  background-color: lightgreen;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pixel-board {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 225px; 
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin: 0;
+  background-color: white;
+}
+
+#clear-board {
+  background-color: #eee;
+  display: inline-block;
+  width: 100%;
+}
